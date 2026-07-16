@@ -1,0 +1,245 @@
+/* ==================================================
+   CODEALJA v1.0
+   BASE
+================================================== */
+
+/* ---------- Reset ---------- */
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ---------- HTML ---------- */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+/* ---------- Body ---------- */
+
+body{
+
+    background:var(--color-bg);
+
+    color:var(--color-text);
+
+    font-family:var(--font-main);
+
+    font-size:16px;
+
+    line-height:1.6;
+
+    overflow-x:hidden;
+
+    -webkit-font-smoothing:antialiased;
+
+    text-rendering:optimizeLegibility;
+
+}
+
+/* ---------- Images ---------- */
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+/* ---------- Links ---------- */
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+    transition:var(--transition);
+
+}
+
+/* ---------- Lists ---------- */
+
+ul{
+
+    list-style:none;
+
+}
+
+/* ---------- Buttons ---------- */
+
+button{
+
+    font:inherit;
+
+    cursor:pointer;
+
+    border:none;
+
+    background:none;
+
+}
+
+/* ---------- Inputs ---------- */
+
+input,
+textarea,
+select{
+
+    font:inherit;
+
+    outline:none;
+
+}
+
+/* ---------- Headings ---------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-weight:var(--fw-black);
+
+    color:var(--color-white);
+
+    line-height:1.1;
+
+    letter-spacing:-1px;
+
+}
+
+/* ---------- Paragraph ---------- */
+
+p{
+
+    color:var(--color-muted);
+
+    font-size:var(--fs-lg);
+
+    line-height:1.8;
+
+}
+
+/* ---------- Code ---------- */
+
+code,
+pre{
+
+    font-family:var(--font-code);
+
+}
+
+/* ---------- Selection ---------- */
+
+::selection{
+
+    background:var(--color-primary);
+
+    color:#000;
+
+}
+
+/* ---------- Scrollbar ---------- */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#0B0F15;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:linear-gradient(
+        var(--color-primary),
+        var(--color-accent)
+    );
+
+    border-radius:20px;
+
+}
+
+/* ---------- Sections ---------- */
+
+section{
+
+    padding:var(--section-spacing) 0;
+
+}
+
+/* ---------- Container ---------- */
+
+.container{
+
+    width:min(90%, var(--container));
+
+    margin:auto;
+
+}
+
+/* ---------- Glow Background ---------- */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+
+        radial-gradient(circle at top left,
+        rgba(94,235,255,.10),
+        transparent 35%),
+
+        radial-gradient(circle at bottom right,
+        rgba(168,85,247,.10),
+        transparent 35%);
+
+    pointer-events:none;
+
+    z-index:-2;
+
+}
+
+/* ---------- Grid Background ---------- */
+
+body::after{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background-image:
+
+    linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+
+    linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+
+    background-size:60px 60px;
+
+    mask-image:radial-gradient(circle, black 45%, transparent 90%);
+
+    pointer-events:none;
+
+    z-index:-1;
+
+}

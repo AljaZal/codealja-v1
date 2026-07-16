@@ -11,7 +11,7 @@ const lines = [
     
     "",
     
-    "Loading Neural Core...",
+    "Initializing Neural Core......",
     
     "",
     

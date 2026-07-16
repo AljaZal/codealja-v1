@@ -7,40 +7,41 @@ const terminal = document.getElementById("terminal");
 
 const lines = [
 
-"codealja@ai:~$ initialize",
-
-"",
-
-"Loading AI Core...",
-
-"",
-
-"████████████████████ 100%",
-
-"",
-
-"✓ AI Employees",
-
-"✓ Business Automation",
-
-"✓ Secure Infrastructure",
-
-"✓ Knowledge Systems",
-
-"",
-
-"Launching...",
-
-"",
-
-"System Status: READY",
-
-"",
-
-"Welcome Founder."
-
-];
-
+    "codealja@ai:~$ initialize",
+    
+    "",
+    
+    "Loading Neural Core...",
+    
+    "",
+    
+    "████████████████████ 100%",
+    
+    "",
+    
+    "✓ AI Employees",
+    
+    "✓ Linux Infrastructure",
+    
+    "✓ Cybersecurity",
+    
+    "✓ Automation",
+    
+    "✓ Knowledge Systems",
+    
+    "",
+    
+    "System Status: READY",
+    
+    "",
+    
+    "Mission: Build secure AI business systems.",
+    
+    "",
+    
+    "Welcome to CodeAlja.",
+    
+    ];
 let lineIndex = 0;
 let charIndex = 0;
 let output = "";

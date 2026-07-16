@@ -1,0 +1,134 @@
+/* ==================================================
+   CODEALJA v1.0
+   DESIGN TOKENS
+================================================== */
+
+:root {
+
+    /* ===========================
+       Brand Colors
+    ============================ */
+
+    --color-bg: #090B10;
+    --color-surface: #111827;
+    --color-surface-light: #1B2435;
+
+    --color-primary: #5EEBFF;
+    --color-secondary: #6C63FF;
+    --color-accent: #A855F7;
+
+    --color-white: #F8FAFC;
+
+    --color-text: #E8EEF8;
+    --color-muted: #98A4B7;
+
+    --color-border: rgba(255,255,255,.08);
+
+    /* ===========================
+       Gradient
+    ============================ */
+
+    --gradient-primary:
+        linear-gradient(
+            135deg,
+            #5EEBFF 0%,
+            #6C63FF 50%,
+            #A855F7 100%
+        );
+
+    /* ===========================
+       Background Effects
+    ============================ */
+
+    --glow-primary:
+        rgba(94,235,255,.25);
+
+    --glow-secondary:
+        rgba(168,85,247,.22);
+
+    /* ===========================
+       Typography
+    ============================ */
+
+    --font-main:
+        "Inter",
+        sans-serif;
+
+    --font-code:
+        "JetBrains Mono",
+        monospace;
+
+    /* Font Sizes */
+
+    --fs-xs: .75rem;
+    --fs-sm: .875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.5rem;
+    --fs-2xl: 2rem;
+    --fs-3xl: 3rem;
+    --fs-4xl: 4rem;
+    --fs-5xl: 5rem;
+
+    /* Font Weights */
+
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-semibold:600;
+    --fw-bold:700;
+    --fw-black:800;
+
+    /* ===========================
+       Layout
+    ============================ */
+
+    --container:1200px;
+
+    --section-spacing:120px;
+
+    /* ===========================
+       Radius
+    ============================ */
+
+    --radius-sm:10px;
+    --radius-md:16px;
+    --radius-lg:24px;
+    --radius-xl:40px;
+
+    /* ===========================
+       Shadows
+    ============================ */
+
+    --shadow-soft:
+        0 10px 40px rgba(0,0,0,.18);
+
+    --shadow-card:
+        0 20px 60px rgba(0,0,0,.30);
+
+    --shadow-glow:
+        0 0 40px rgba(94,235,255,.10);
+
+    /* ===========================
+       Animation
+    ============================ */
+
+    --transition-fast:.2s ease;
+
+    --transition:
+        .35s cubic-bezier(.4,0,.2,1);
+
+    /* ===========================
+       Navbar
+    ============================ */
+
+    --navbar-height:84px;
+
+    /* ===========================
+       Z-index
+    ============================ */
+
+    --z-navbar:1000;
+    --z-modal:5000;
+
+}
